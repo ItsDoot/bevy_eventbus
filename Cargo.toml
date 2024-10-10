@@ -1,0 +1,9 @@
+[package]
+name = "bevy_eventbus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy_ecs = { version = "0.15.0-dev", git = "https://github.com/bevyengine/bevy.git", branch = "main" }
+bevy_app = { version = "0.15.0-dev", git = "https://github.com/bevyengine/bevy.git", branch = "main" }
+parking_lot = { version = "0.12.3", features = ["arc_lock"] }
